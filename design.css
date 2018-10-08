@@ -1,0 +1,166 @@
+/* Created by Kash */
+
+ @import url(https://fonts.googleapis.com/css?family=Dosis);
+@import url(https://fonts.googleapis.com/css?family=Philosopher);
+@import url(https://fonts.googleapis.com/css?family=Alegreya+SC);
+@import url(https://fonts.googleapis.com/css?family=Calligraphica);
+@import url(https://fonts.googleapis.com/css?family=Rye);
+@import url(https://fonts.googleapis.com/css?family=Nosifer);
+@import url(https://fonts.googleapis.com/css?family=Libre+Baskerville);
+
+body {
+    margin:0;
+    background-color: #1f1b1b;
+}
+
+#header{
+    width: 100%;
+    height:46px;
+    background-color:#333;
+     
+
+}
+
+ #header>.head_{
+
+    
+    width:50%;
+    color: rgba(162, 163, 224, 0.651);
+     margin:0 auto;
+    
+    font-family: Nosifer;
+    font-size:20pt;
+
+ }
+
+ #container_ {
+     margin-top: 5px;
+     width:350px;
+     height:350px;
+     border:1px solid rgb(31, 9, 110);
+     background-color: #fff;
+     float: left;
+     margin-left:5px;
+      
+     background-color: rgb(9, 6, 19);
+     color:chartreuse;
+     overflow: scroll;
+     overflow-x: hidden;
+     overflow-wrap:break-word;
+     font-size: 14px;
+     font-family: "Libre Baskerville";
+    word-spacing: 3pt;
+ }
+
+ aside {
+    
+     color:rgba(15, 101, 170, 0);
+     background-color: #000;
+     width: 300px;
+     height: 300px;
+     border-radius: 10px;
+     background-clip: padding-box;
+     color: #000;
+ 
+     font-size: x-small ;
+     margin-right: 10px;
+     margin-top: 10px;
+    
+      
+ }
+
+ aside>h3{
+      
+     text-decoration: none;
+     
+     font-size:medium;
+     
+
+     font-family: Calligraphica;
+ }
+
+ a:link {
+     text-decoration: none;
+      
+          
+     
+
+ }
+
+ .manu {
+     -webkit-animation : colorchange  ease-in 1s infinite reverse;
+     animation : colorchange  ease-in 1s infinite reverse;
+ 
+
+}
+
+ @keyframes colorchange {
+
+     0%{color: red;}
+     20%{color: blue;}
+     30%{
+         color: pink;
+     }
+     40%{
+         color: blue;
+     }
+     50%{color:skyblue;}
+
+     75%{color:green;}
+     100%{
+         color: black;
+     }
+ 
+
+     
+
+ }
+
+ ul>li{
+     margin-top: 5px;
+     font-size:small;
+     list-style-type: square;
+ }
+
+ #controls{
+
+       float: left;
+     margin:0 auto;
+     width: 300px;
+
+
+ }
+
+ #textBox{
+      width:300px;
+      resize: none;
+      color:rgb(194, 178, 178);
+      background-color: #1f1f1f;
+      margin-top:0px;
+      margin-left:6px;
+ }
+
+ #send{
+     
+     margin-top: 4px;
+     margin-left: 6px;
+ }
+ .userName {
+
+    color: rgb(216, 202, 177);
+    font-weight: bold;
+    font-family:  "Alegreya SC";
+
+ }
+
+ .Bot{
+    
+        color: rgb(16, 250, 160);
+        font-weight: bold;
+        font-family:  "Alegreya SC";
+    
+     }
+
+.hidden {
+    display:hidden ;
+}
