@@ -1,6 +1,6 @@
-// Created by Kash
 
-alert("Enter your name only . No need for a full sentence . Enjoy the chat with my bot ");
+
+//alert("Enter your name only . No need for a full sentence . Enjoy the chat with my bot ");
 
  var username =""; 
  
@@ -13,7 +13,7 @@ alert("Enter your name only . No need for a full sentence . Enjoy the chat with 
     var prevMsg = $("#container_").html();
     
         $("#container_").html(prevMsg +
-             " <span class= 'current_message'>"+ "<span class = 'Bot'> [Bot v.1.0 ] :  </span>" 
+             " <span class= 'current_message'>"+ "<span class = 'Bot'> [Sonali ] :  </span>" 
               + message +"</span>" + "<br>");
         $(".current_message").hide();
         $(".current_message").delay(500).fadeIn();
